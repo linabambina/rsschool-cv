@@ -22,3 +22,10 @@ EXPERIENCE
 Feb 2015 - Apr 2017: Website Content Manager at One Planet Group Inc.
 Apr 2017- now: Web UI developer at One Planet Group Inc   -  Creating high-quality, semantic, valid mockups;  Implementation of responsive design for mobile sites;  Maintaining and improving company websites.
 
+
+PROJECTS
+
+https://www.california.com/
+https://oneplanetgroup.com/
+
+
