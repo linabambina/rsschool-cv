@@ -29,3 +29,5 @@ https://www.california.com/
 https://oneplanetgroup.com/
 
 
+PERSONAL SKILLS
+Broadminded, creative, flexible, hardworking, sociable, attentive to details
