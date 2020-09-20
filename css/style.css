@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    -moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box; /* Ширина блока с полями */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    color: #1E2828;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.main-wrapper p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.main-header {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+
+.main-header:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background: #242229;
+}
+
+.main-section {
+    margin: 20px 0;
+}
+
+.section-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #5c1468;
+}
+
+.link {
+    color: #1E2828;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #48788e;
+}
+
+.main-list {
+    list-style-type: disc;
+    padding-left: 18px;
+}
+
+.main-list li {
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.main-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-col {
+    width: 50%;
+}
+
+@media(max-width: 767px) {
+    .flex-row {
+      flex-direction: column;
+    }
+    .flex-col {
+        width: 100%;
+    }
+    .main-photo {
+        width: 100%;
+        height: 250px;
+    }
+}
